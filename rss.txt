@@ -1,0 +1,38 @@
+RSS Feeds
+
+SPORTS
+______
+
+TSN - http://www.tsn.ca/datafiles/rss/Stories.xml
+
+NHL - http://ice.nhl.com/rss/news.xml
+
+MLB - http://mlb.mlb.com/partnerxml/gen/news/rss/mlb.xml
+
+Blue Jays - http://mlb.mlb.com/partnerxml/gen/news/rss/tor.xml
+
+Canucks - http://canucks.nhl.com/rss/news.xml
+
+
+MUSIC
+_____
+
+Pitchfork - https://api.pitchfork.com/rss/news/
+
+Itunes - https://itunes.apple.com/WebObjects/MZStore.woa/wpa/MRSS/newreleases/sf=143441/limit=25/rss.xml
+
+
+VIDEOGAMES
+__________
+
+
+
+WEB
+___
+
+TechCrunch - http://feeds.feedburner.com/TechCrunch/
+
+CSS-Tricks - http://feeds.feedburner.com/CssTricks/
+
+Typography - http://feeds2.feedburner.com/NiceWebType
+

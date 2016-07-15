@@ -1,0 +1,106 @@
+#splash {
+	height: 100vh;
+	background: url(https://source.unsplash.com/random) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#time-container {
+	height: 100px;
+	width: 400px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.5);
+	left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -200%, 0);
+    -moz-transform: translate3d(-50%, -200%, 0);
+    transform: translate3d(-50%, -200%, 0);
+}
+
+#time {
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 50px;
+	letter-spacing: 7px;
+}
+
+#sports-categories, #categories {
+	left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 5px;
+    padding: 10px 0;
+    cursor: pointer;
+    width: initial;
+}
+
+#sports-categories > h3, #categories > h3 {
+	background-color: rgba(255, 255, 255, 0.5);
+	display: inline;
+	padding: 10px 50px;
+	color: black;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 40px;
+}
+
+#sports-categories {
+	display: none;
+	width: 900px;
+}
+
+#sports-categories > h3 {
+
+}
+
+#back {
+	left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -200%, 0);
+    -moz-transform: translate3d(-50%, -200%, 0);
+    transform: translate3d(-50%, -200%, 0);
+	font-family: "Oswald", sans-serif;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 10px 50px;
+	display: none;
+}
+
+#hello {
+	color: #000;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #fff;
+	font-size: 75px;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+/* TYPED CURSOR STYLES */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
